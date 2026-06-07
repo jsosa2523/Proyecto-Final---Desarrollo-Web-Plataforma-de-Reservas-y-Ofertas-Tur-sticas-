@@ -470,3 +470,5 @@ def reservas_page() -> rx.Component:
         min_height="100vh",
         font_family="'Inter', system-ui, sans-serif",
     )
+
+# v1.1 - Validaciones: campos obligatorios, email y fecha futura
