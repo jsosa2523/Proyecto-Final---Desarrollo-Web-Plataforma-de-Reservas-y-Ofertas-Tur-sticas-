@@ -333,3 +333,5 @@ def inicio_page() -> rx.Component:
         min_height="100vh",
         font_family="'Inter', system-ui, sans-serif",
     )
+
+# v1.1 - Fix: mejoras responsive en mobile
