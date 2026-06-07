@@ -1,0 +1,42 @@
+# .gitignore — TuristicaRD
+
+# Variables de entorno (¡NUNCA subir al repositorio!)
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Reflex
+.web/
+frontend/.web/
+frontend/__pycache__/
+
+# Node (usado por Reflex internamente)
+node_modules/
+
+# Editores e IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Uploads / Media locales
+uploads/
+media/

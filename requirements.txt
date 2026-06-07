@@ -1,0 +1,11 @@
+reflex==0.6.0
+fastapi>=0.96.0,!=0.111.0,!=0.111.1
+uvicorn[standard]
+sqlalchemy>=2.0.0
+pymysql
+cryptography
+pydantic[email]>=2.0.0
+pydantic-settings
+python-dotenv
+httpx
+sqlmodel==0.0.18

@@ -1,0 +1,46 @@
+# render.yaml
+# Configuración de despliegue en Render.com
+# Documentación: https://render.com/docs/blueprint-spec
+
+services:
+  # ── API Backend (FastAPI) ─────────────────────────────────
+  - type: web
+    name: turistica-api
+    runtime: python
+    plan: free
+    region: ohio
+    buildCommand: pip install -r requirements.txt
+    startCommand: cd api && uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: DB_HOST
+        sync: false
+      - key: DB_PORT
+        value: "3306"
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: DB_NAME
+        value: turistica_db
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ENV
+        value: production
+
+  # ── Frontend Reflex ───────────────────────────────────────
+  - type: web
+    name: turistica-frontend
+    runtime: python
+    plan: free
+    region: ohio
+    buildCommand: |
+      pip install -r requirements.txt
+      cd frontend && reflex export --frontend-only
+    startCommand: cd frontend && reflex run --env prod
+    envVars:
+      - key: API_BASE_URL
+        fromService:
+          name: turistica-api
+          type: web
+          property: host
