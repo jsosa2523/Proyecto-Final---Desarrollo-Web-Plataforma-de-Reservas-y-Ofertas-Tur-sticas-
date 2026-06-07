@@ -1,4 +1,4 @@
-# 🌴 TuristicaRD — Plataforma de Reservas y Ofertas Turísticas
+# TuristicaRD — Plataforma de Reservas y Ofertas Turísticas
 
 [![Deploy on Render](https://img.shields.io/badge/Deploy-Render-46E3B7?logo=render)](https://render.com)
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python)](https://python.org)
@@ -10,11 +10,11 @@ Plataforma web completa para reservas y publicación de ofertas turísticas en R
 
 ---
 
-## 📸 Vista Previa
+## Vista Previa
 
 ```
 ┌──────────────────────────────────────┐
-│   🌴 TuristicaRD                     │
+│      TuristicaRD                     │
 │   Inicio | Descripción | Reservas    │
 │                                      │
 │  [Buscar destino...]  [Buscar →]     │
@@ -29,14 +29,14 @@ Plataforma web completa para reservas y publicación de ofertas turísticas en R
 
 ---
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 **TuristicaRD** es una plataforma turística que permite:
 
-- 🔍 **Buscar** destinos y paquetes turísticos en República Dominicana
-- 🏷️ **Explorar** ofertas con imágenes, precios e itinerarios detallados
-- 📅 **Reservar** actividades turísticas directamente en línea
-- 📞 **Contactar** a la empresa para información personalizada
+- **Buscar** destinos y paquetes turísticos en República Dominicana
+- **Explorar** ofertas con imágenes, precios e itinerarios detallados
+- **Reservar** actividades turísticas directamente en línea
+- **Contactar** a la empresa para información personalizada
 
 ### Tecnologías Utilizadas
 
@@ -51,7 +51,7 @@ Plataforma web completa para reservas y publicación de ofertas turísticas en R
 
 ---
 
-## 🚀 Cómo Instalar y Ejecutar
+## Cómo Instalar y Ejecutar
 
 ### Prerrequisitos
 
@@ -140,12 +140,12 @@ El sitio estará disponible en: `http://localhost:3000`
 
 ---
 
-## 📁 Estructura de Carpetas
+## Estructura de Carpetas
 
 ```
 turistica-rd/
 │
-├── 📂 api/                     # Backend FastAPI
+├──  api/                     # Backend FastAPI
 │   ├── main.py                 # Punto de entrada de la API
 │   ├── models.py               # Modelos SQLAlchemy
 │   ├── schemas.py              # Esquemas Pydantic
@@ -154,7 +154,7 @@ turistica-rd/
 │   │   └── reservas.py         # Endpoints de reservas
 │   └── database.py             # Configuración de la DB
 │
-├── 📂 frontend/                # Frontend Reflex
+├──  frontend/                # Frontend Reflex
 │   ├── turistica_rd/           # App Reflex principal
 │   │   ├── pages/
 │   │   │   ├── inicio.py       # Página de inicio
@@ -167,11 +167,11 @@ turistica-rd/
 │   │   │   └── formulario_reserva.py
 │   │   └── turistica_rd.py     # Estado global de la app
 │
-├── 📂 database/                # Scripts SQL
+├──  database/                # Scripts SQL
 │   ├── schema.sql              # Estructura de tablas
 │   └── seed.sql                # Datos de ejemplo
 │
-├── 📂 docs/                    # Documentación adicional
+├──  docs/                    # Documentación adicional
 │   ├── api_endpoints.md        # Documentación de la API
 │   └── gitflow.md              # Guía de GitFlow
 │
@@ -184,7 +184,7 @@ turistica-rd/
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Ofertas Turísticas
 
@@ -234,7 +234,7 @@ turistica-rd/
 
 ---
 
-## 🌿 Flujo de Trabajo con GitFlow
+##  Flujo de Trabajo con GitFlow
 
 Este proyecto sigue la metodología **GitFlow**. Las ramas principales son:
 
@@ -260,7 +260,7 @@ release/*     ← Preparación de versiones
 
 ---
 
-## ☁️ Despliegue en Render
+##  Despliegue en Render
 
 El proyecto está desplegado en dos servicios de Render:
 
@@ -285,13 +285,13 @@ services:
 
 ---
 
-## 👥 Créditos
+##  Créditos
 
 **Desarrollado como proyecto final de Desarrollo Web**
 
-- 👨‍💻 **Desarrollador:** Tu Nombre
-- 📚 **Institución:** Tu Universidad / Instituto
-- 📅 **Año:** 2025
+-  **Desarrollador:** Tu Nombre
+-  **Institución:** Tu Universidad / Instituto
+-  **Año:** 2025
 
 ### Recursos y Referencias
 
@@ -303,6 +303,8 @@ services:
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
+
+Versión 1.0.0 - Primera versión estable desplegada en Render.
