@@ -5,7 +5,7 @@ from typing import List
 
 from turistica_rd.components.navbar import navbar, footer
 
-API_BASE = "http://localhost:8000"
+API_BASE = "https://turista-utql.onrender.com/"
 
 
 class OfertaOpcion(rx.Base):

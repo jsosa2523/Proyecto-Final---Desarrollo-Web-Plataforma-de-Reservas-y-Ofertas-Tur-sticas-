@@ -5,7 +5,7 @@ from typing import List, Any
 
 from turistica_rd.components.navbar import navbar, footer
 
-API_BASE = "http://localhost:8000"
+API_BASE = "https://turista-utql.onrender.com/"
 
 
 class OfertaItem(rx.Base):
@@ -334,4 +334,4 @@ def inicio_page() -> rx.Component:
         font_family="'Inter', system-ui, sans-serif",
     )
 
-# v1.1 - Fix: mejoras responsive en mobile
+# v1.1 - Fix: mejoras responsive
