@@ -19,7 +19,7 @@ Plataforma web completa para reservas y publicación de ofertas turísticas en R
 │                                      │
 │  [Buscar destino...]  [Buscar →]     │
 │                                      │
-│  🏖️ Ofertas Destacadas              │
+│    Ofertas Destacadas              │
 │  ┌──────┐ ┌──────┐ ┌──────┐         │
 │  │Punta │ │Santo │ │Samaná│         │
 │  │Cana  │ │Domingo│ │     │         │
