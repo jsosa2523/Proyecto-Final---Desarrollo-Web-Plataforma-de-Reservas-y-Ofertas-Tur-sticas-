@@ -55,3 +55,5 @@ def root():
 @app.get("/health", tags=["Root"])
 def health():
     return {"status": "healthy"}
+
+# v1.0 - API REST completa con endpoints de ofertas y reservas

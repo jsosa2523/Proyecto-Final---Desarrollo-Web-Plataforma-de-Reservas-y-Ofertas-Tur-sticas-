@@ -13,3 +13,5 @@ app = rx.App(
 app.add_page(inicio_page,      route="/",            title="TuristicaRD - Inicio")
 app.add_page(descripcion_page, route="/descripcion", title="TuristicaRD - Descripción")
 app.add_page(reservas_page,    route="/reservas",    title="TuristicaRD - Reservar")
+
+# v1.0 - Páginas: Inicio, Descripción y Reservas
