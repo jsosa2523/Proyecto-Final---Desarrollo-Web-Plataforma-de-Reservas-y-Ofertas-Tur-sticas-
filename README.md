@@ -222,9 +222,9 @@ turistica-rd/
 
 ```json
 {
-  "nombre_cliente": "Juan Pérez",
-  "email": "juan@email.com",
-  "telefono": "809-555-1234",
+  "nombre_cliente": "Diego Sosa",
+  "email": "diego12@email.com",
+  "telefono": "809-123-4567",
   "oferta_id": 1,
   "fecha_viaje": "2025-08-15",
   "num_personas": 2,
